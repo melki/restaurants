@@ -1,0 +1,118 @@
+@font-face {
+      font-family: "digi";
+      src: url("digi.TTF");
+    }
+
+html, body, #map {
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.stations, .stations svg {
+  position: absolute;
+}
+ 
+.stations svg {
+  width: 10000px;
+  height: 10000px;
+  
+  font: 10px sans-serif;
+}
+ 
+ .road svg
+ {
+ 	 position: absolute;
+	width: 10000px;
+ 	height: 10000px;
+ }
+
+.stations circle {
+  
+  stroke: none;
+  
+}
+ 
+#choseNote
+{
+  color: darkblue;
+  
+  position: absolute;
+  font-family: Sans;
+  
+  font-size: 12px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  
+  
+  opacity: 1;
+  background-color: white;
+  bottom: 20px;
+  right:20px;
+}
+
+#infoNote
+{
+  color: darkblue;
+  
+  position: absolute;
+  font-family: Sans;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 100px;
+  
+  opacity: 1;
+  background-color: white;
+  bottom: 20px;
+  left:20px;
+}
+
+.imgLeft
+{
+	float : left;
+	width: 30px;
+	margin-right: 10px;
+}
+
+#playPause
+{
+ 
+  font-family: digi,sans;
+  position: absolute;
+  cursor:pointer;
+  font-weight: bold;
+  font-size: 40px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 100px;
+  border-radius:10px;
+  opacity: 1;
+  background-color: white;
+  bottom: 20px;
+  right:20px;
+}
+#playPause:hover
+{
+	color:white;
+  background-color: black;
+}
+
+
+#startHour
+{
+  width: 30px;
+}
+.scrollFix {
+    line-height: 1.35;
+    overflow: hidden;
+    white-space: nowrap;
+ 
+}
+.gm-style-iw + div {display: none;}
